@@ -1,0 +1,159 @@
+@import url('./fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 79px;
+}
+
+.nav__list_link a{
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;   
+    text-align: center;
+    color: #8C8A8A;
+    
+}
+
+.header img{
+    display: flex;
+    margin: 30px auto;
+}
+
+.main{
+    display: flex;
+    gap: 30px;
+}
+
+.left__block{
+    /* width: 100%; */
+    max-width: 730px;
+    height: 500px;
+    background: #F0F0F0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 40px;
+}
+
+.left__block_title{
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+}
+
+.left__block_text{
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.right__block{
+    /* width: 100%; */
+    max-width: 350px;
+    height: 500px;
+    background: #F0F0F0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 40px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+
+.contacts a{
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;  
+    color: #808080;
+}
+
+.right__block_title{
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+}
+
+.right__block_text{
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #F0F0F0;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.right__side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.right__side_text{
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.right__side a{
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+}
